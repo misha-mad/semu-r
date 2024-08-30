@@ -1,38 +1,70 @@
-# create-svelte
+# semu-r
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Svelte ❤️‍🔥 Rust = Sega Genesis Emulator
 
-## Creating a project
+[![License](https://img.shields.io/github/license/zakharovm/semu-r)](
 
-If you're seeing this, you've probably already done this step. Congrats!
+**semu-r** is a web-based Sega Genesis (Mega Drive) emulator written in Rust and Svelte. This project aims to bring
+classic Sega Genesis games to the web with high performance and compatibility.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Features
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- **Web-Based**: Play Sega Genesis games directly in your browser.
+- **Written in Rust**: Utilizes Rust for high-performance emulation.
+- **Built with Svelte**: Provides a modern and responsive user interface.
 
-## Developing
+## Getting Started
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To run the project locally, follow these steps:
 
-```bash
-npm run dev
+1. **Clone the repository**:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+    ```bash
+    git clone https://github.com/your-username/semu-r.git
+    cd semu-r
+    ```
 
-## Building
+2. **Install dependencies**:
 
-To create a production version of your app:
+   Navigate to the `frontend` directory (assuming the Svelte code is there) and install npm packages:
 
-```bash
-npm run build
-```
+    ```bash
+    cd frontend
+    npm install
+    ```
 
-You can preview the production build with `npm run preview`.
+3. **Build and run the project**:
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+   For the Rust part, you may need to build it using Cargo. Ensure Rust is installed and build the project:
+
+    ```bash
+    cargo build
+    ```
+
+   For the Svelte frontend, start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+4. **Open your browser**:
+
+   Navigate to `http://localhost:5000` (or the port specified in your Svelte configuration) to start playing.
+
+## Usage
+
+- Place your Sega Genesis ROM files in the `public/roms` directory.
+- Load a ROM through the web interface and start playing.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository, make changes, and submit a pull request. Ensure that your code
+adheres to the project's coding standards.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, please reach out to [zakharovma.spb@gmail.com](mailto:zakharovma.spb@gmail.com).

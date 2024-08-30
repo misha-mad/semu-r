@@ -2,7 +2,7 @@
 
 ## Svelte ❤️‍🔥 Rust = Sega Genesis Emulator
 
-[![License](https://img.shields.io/github/license/zakharovm/semu-r)](
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue)](https://github.com/misha-mad/semu-r/blob/master/LICENSE)
 
 **semu-r** is a web-based Sega Genesis (Mega Drive) emulator written in Rust and Svelte. This project aims to bring
 classic Sega Genesis games to the web with high performance and compatibility.
